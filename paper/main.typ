@@ -167,6 +167,8 @@ The evaluation on the main benchmarks reveal aggregate trends, but the analysis 
 
     ..results.flatten()
   )
+  ,
+  caption: "Hand crafted test cases and results"
 ) <sentence-similarity-table>
 #set page(columns: 2)
 
@@ -186,7 +188,7 @@ This study provides a systematic comparative evaluation of five semantic similar
 
 First, transformer-based methods consistently outperform classical and static embedding baselines across all evaluation settings. The fine-tuned SBERT variant achieves state-of-the-art performance on regression tasks (STS-B: $r=0.868$, SICK: $r=0.860$) and classification benchmarks (MRPC $F 1=0.837$, QQP $F 1=0.739$). The performance gap widens as task complexity increases: on STS-Annual, which spans six heterogeneous domains (headlines, forums, image captions, Twitter, answers), fine-tuned SBERT maintains $r=0.868$ while Word2Vec collapses to $r=0.109$. This robustness to domain shift represents the clearest advantage of deep contextual representations.
 
-Second, the transition from static to contextual embeddings is the primary driver of performance improvement, but fine-tuning provides additional, statistically significant gains. On STS-B, the gap between pretrained SBERT ($r=0.838$) and fine-tuned SBERT ($r=0.868$) yields $Delta r=0.03$. Fisher z-transformation confirms significance at $p<0.05$ $(z=4.87, ***)$. This consistent advantage across all five benchmarks confirms that task-specific adaptation of the pooling mechanism and embedding space meaningfully aligns representations with human similarity judgments.
+Second, the transition from static to contextual embeddings is the primary driver of performance improvement, but fine-tuning provides additional, statistically significant gains. On STS-B, the gap between pretrained SBERT ($r=0.838$) and fine-tuned SBERT ($r=0.868$) yields $Delta r=0.03$. Fisher z-transformation confirms significance at $p<0.05$ $(z=4.87, *)$. This consistent advantage across all five benchmarks confirms that task-specific adaptation of the pooling mechanism and embedding space meaningfully aligns representations with human similarity judgments.
 
 Third, classical TF-IDF remains surprisingly competitive on classification tasks where paraphrases exhibit high lexical overlap. On MRPC, TF-IDF achieves $F 1=0.821$, outperforming Word2Vec ($0.812$) and BERTScore ($0.822$), and trailing fine-tuned SBERT by only $0.016$. However, on QQP — where lexical variation is substantially higher — TF-IDF drops to $0.641$, a $0.180$-point gap behind fine-tuned SBERT. This pattern indicates that TF-IDF's utility is bounded by dataset characteristics: it excels when paraphrases rely on synonym substitution within a fixed vocabulary but fails when questions require abstraction across phrasings.
 
