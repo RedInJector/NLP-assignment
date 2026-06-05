@@ -1,6 +1,6 @@
 Model,Rank (STS-B/Pearson r),Rank (SICK/Pearson r),Rank (STS-Annual/Pearson r),Rank (MRPC/F1),Rank (QQP/F1)
 TF-IDF,3,4,3,4,4
 Word2Vec,5,5,5,5,5
-SBERT (pretrained),2,2,2,2,2
-SBERT (fine-tuned),1,1,1,1,1
+SBERT (pretrained),2,2,2,2,1
+SBERT (fine-tuned),1,1,1,1,2
 BERTScore F1,4,3,4,3,3

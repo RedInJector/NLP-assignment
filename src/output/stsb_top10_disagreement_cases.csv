@@ -1,11 +1,11 @@
 sentence1,sentence2,score_norm,tfidf,sbert_ft,gap
-The lady peeled the potatoe.,A woman is peeling a potato.,0.95,0.0,0.8636617660522461,0.8636617660522461
-A person is slicing onions.,Someone is slicing an onion.,0.9199999809265137,0.27976438516027957,0.946517825126648,0.6667534399663684
-A yellow car speeds along a snowy field.,A yellow car drives quickly in the snow.,0.8800000190734864,0.2427509310060989,0.8843992948532104,0.6416483638471115
-A man uses a chainsaw to sculpt a phallic ice sculpture.,A man is using a chainsaw to carve a wooden sculpture.,0.5199999809265137,0.130720708024907,0.7682883739471436,0.6375676659222366
-It's not a good idea.,It's a good idea to do both.,0.2,0.746697324376387,0.15943199396133423,0.5872653304150528
-A man is playing the guitar and singing.,A man sings with a guitar.,0.95,0.30424634034035525,0.8792949914932251,0.5750486511528698
-A young Asian girl is applying eyeliner.,A girl is putting on eye makeup.,0.48000001907348633,0.14208760647235555,0.7125651836395264,0.5704775771671708
-A boy skateboards down the railing of some graffiti stairs,A skateboarder slides down a handrail on his feet.,0.5199999809265137,0.06068907965874709,0.6220951080322266,0.5614060283734794
-A man is doing trick with play cards.,A man is performing a card trick.,1.0,0.31977089485291466,0.8716121912002563,0.5518412963473417
-"In the US, it will depend on the school.",It really depends on the school and the program.,0.6,0.32317428269565,0.8716422319412231,0.5484679492455731
+The lady peeled the potatoe.,A woman is peeling a potato.,0.95,0.0,0.8718207478523254,0.8718207478523254
+A person is slicing onions.,Someone is slicing an onion.,0.9199999809265137,0.27976438516027957,0.9448257684707642,0.6650613833104846
+A man uses a chainsaw to sculpt a phallic ice sculpture.,A man is using a chainsaw to carve a wooden sculpture.,0.5199999809265137,0.130720708024907,0.772843599319458,0.642122891294551
+A yellow car speeds along a snowy field.,A yellow car drives quickly in the snow.,0.8800000190734864,0.2427509310060989,0.8824415802955627,0.6396906492894638
+A man is playing the guitar and singing.,A man sings with a guitar.,0.95,0.30424634034035525,0.8904610872268677,0.5862147468865124
+A boy skateboards down the railing of some graffiti stairs,A skateboarder slides down a handrail on his feet.,0.5199999809265137,0.06068907965874709,0.6324927806854248,0.5718037010266777
+Birth Control Linked With Higher Glaucoma Risk,Contraceptive pill 'doubles glaucoma risk',0.6800000190734863,0.19543722126735302,0.7507460117340088,0.5553087904666558
+A young Asian girl is applying eyeliner.,A girl is putting on eye makeup.,0.48000001907348633,0.14208760647235555,0.6964757442474365,0.554388137775081
+"In the US, it will depend on the school.",It really depends on the school and the program.,0.6,0.32317428269565,0.8735153079032898,0.5503410252076397
+Microwave would be your best bet.,Your best bet is research.,0.0,0.633235596520018,0.08442462980747223,0.5488109667125458

@@ -1,0 +1,9 @@
+Case Type,S1,S2,TF-IDF,Word2Vec,SBERT (Pretrained),SBERT (Fine-tuned),Dominant Error Mode
+[A] Lexical paraphrase,The cat is sleeping on the sofa.,The feline is dozing on the couch.,0.2173,0.9825,0.6624,0.6688,Lexical variation / synonymy
+[B] Syntactic ambiguity,The chicken is ready to eat.,The chicken is eating.,0.4891,0.8724,0.8735,0.8529,Predicate ambiguity
+[C] Attachment ambiguity,I saw the man with the telescope.,I used a telescope to see the man.,0.6067,0.8789,0.9158,0.9227,PP attachment ambiguity
+[D] Negation,The patient recovered quickly after surgery.,The patient did not recover after surgery.,0.5422,0.8529,0.6772,0.4916,Negation handling
+[E] Domain-register paraphrase,The stock market fell sharply yesterday.,Equity markets recorded significant losses on Tuesday.,0.0,0.7995,0.6553,0.5191,Domain-specific vocabulary
+[F] SICK contradiction,A dog is running across the grass.,No dog is running across the grass.,0.921,0.9802,0.6413,0.6916,Logical contradiction / negation
+[G] MRPC paraphrase,The team won the championship for the third time in a row.,The side claimed a third consecutive title.,0.161,0.9381,0.6724,0.6594,Paraphrastic abstraction
+[H] Political lexical overlap,Why would many vote for Donald Trump over Hillary Clinton?,Why are you voting for Hillary Clinton over Donald Trump?,0.7358,0.9429,0.8725,0.8088,Entity-role reversal
